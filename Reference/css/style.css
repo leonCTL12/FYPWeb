@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/oculusVR.jpg) center center no-repeat;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -320,12 +320,6 @@ header .intro-text {
 #services h2 {
   color: #fff;
 }
-
-#services .tool-icon {
-  height: 5vw;
-  width: auto;
-}
-
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -360,10 +354,6 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
-}
-
-#githubIcon {
-  width: 5vw;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
