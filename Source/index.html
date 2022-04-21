@@ -91,10 +91,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#features" class="page-scroll">Game Features</a></li>
             <li>
               <a href="#about" class="page-scroll">Project Introduction</a>
             </li>
+            <li><a href="#features" class="page-scroll">Game Features</a></li>
             <li><a href="#services" class="page-scroll">Development Tools</a></li>
             <li><a href="#portfolio" class="page-scroll">Progress</a></li>
             <li>
@@ -127,6 +127,68 @@
         </div>
       </div>
     </header>
+
+     <!-- About Section -->
+     <div id="about">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="img/devices.png" class="img-responsive" alt="" />
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2 id="introTitle">Background</h2>
+              <p>
+                The gaming industry is advancing.The game developers are trying to include and develop new technology in their game; for instance, motion tracking, virtual reality (VR), mixed reality(MR), etc. There are more and more devices for gaming, for example, laptop, mobile, and VR headset. 
+However, there is not game that is compatible with PC, mobile, and VR headsets concurrently. For a game that can support more platforms, not only more players can enjoy it, but the revenue for the game will also be drastically increased. The goal of this project is to investigate whether it is possible for a game to support multiplatform to provide players with similar gaming experience.
+
+              </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="img/Dual_X_Menu.png" class="img-responsive" alt="" />
+          </div>
+        
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2 id="introTitle">Introduction</h2>
+              <p>
+                This game is called Dual X. 
+                Dual stands for 2 players because it is a compulsory 2-player cooperative game. It contains three levels - two puzzle-solving levels, 
+                and one boss fight level. To facilitate communication and cooperation, 
+                 a built-in voice chat system will be available in the game.
+                
+                The X is a cross, which stands for cross-platform. Players can choose to play the game on various platforms. 
+                PC (Windows), Mobile (Android), and VR (Oculus Quest 2) are supported. 
+                In order to show that it can also support gaming consoles without further complexing the hardware requirement, 
+                for pc platform, both the game controller and keyboard and mouse will be supported. 
+              </p>
+
+          
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="img/MultiLevel.png" class="img-responsive" alt="" />
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2 id="introTitle">Challenge</h2>
+              <p>
+                The main challenge of implementation comes from its layer of complexity. There are two layers. 
+                The first layer is cross-platform, there are in total 4 types of devices supported, and different devices have their own input. 
+                The second layer is multiple levels, in different levels players will be allowed to perform different actions. 
+                The biggest challenge is to design a structured and reusable codebase. The concepts of inheritance and prefab variant are therefore very important. 
+              </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br>
     <!-- Features Section -->
     <div id="features" class="text-center">
       <div class="container">
@@ -157,48 +219,7 @@
         </div>
       </div>
     </div>
-    <!-- About Section -->
-    <div id="about">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="img/devices.png" class="img-responsive" alt="" />
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <div class="about-text">
-              <h2 id="introTitle">Background</h2>
-              <p>
-                The gaming industry is advancing.The game developers are trying to include and develop new technology in their game; for instance, motion tracking, virtual reality (VR), mixed reality(MR), etc. There are more and more devices for gaming, for example, laptop, mobile, and VR headset. 
-However, there is not game that is compatible with PC, mobile, and VR headsets concurrently. For a game that can support more platforms, not only more players can enjoy it, but the revenue for the game will also be drastically increased. The goal of this project is to investigate whether it is possible for a game to support multiplatform to provide players with similar gaming experience.
-
-              </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="img/Dual_X_Menu.png" class="img-responsive" alt="" />
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <div class="about-text">
-              <h2 id="introTitle">Introduction</h2>
-              <p>
-                This game is called Dual X. 
-                Dual stands for 2 players because it is a compulsory 2-player cooperative game. It contains three levels - two puzzle-solving levels, 
-                and one boss fight level. To facilitate communication and cooperation, 
-                 a built-in voice chat system will be available in the game.
-                
-                The X is a cross, which stands for cross-platform. Players can choose to play the game on various platforms. 
-                PC (Windows), Mobile (Android), and VR (Oculus Quest 2) are supported. 
-                In order to show that it can also support gaming consoles without further complexing the hardware requirement, 
-                for pc platform, both the game controller and keyboard and mouse will be supported. 
-              </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
+   
     <!-- Services Section -->
     <div id="services" class="text-center">
       <div class="container">
@@ -877,7 +898,7 @@ However, there is not game that is compatible with PC, mobile, and VR headsets c
                 <tr>
                   <td>19-22 Apr 2022</td>
                   <td>Final presentation 
-                      <td><i class="fa fa-close"></i></td>
+                      <td><i class="fa fa-check-circle"></i></td>
                 </tr>
                 <tr>
                   <td>4 May 2022</td>
